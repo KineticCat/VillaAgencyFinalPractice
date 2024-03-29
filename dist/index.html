@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Villa Agency - Real Estate HTML5 Template</title>
+
+    <!-- Bootstrap core CSS -->
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<!--
+
+TemplateMo 591 villa agency
+
+https://templatemo.com/tm-591-villa-agency
+
+-->
+    <link rel="stylesheet" crossorigin href="/assets/index-lla37msI.css">
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <div class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-8">
+          <ul class="info">
+            <li><i class="fa fa-envelope"></i> info@company.com</li>
+            <li><i class="fa fa-map"></i> Sunny Isles Beach, FL 33160</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <ul class="social-links">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://x.com/minthu" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <h1>Villa</h1>
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                      <li><a href="index.html" class="active">Home</a></li>
+                      <li><a href="properties.html">Properties</a></li>
+                      <li><a href="property-details.html">Property Details</a></li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                      <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
+                  </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner">
+    <div class="owl-carousel owl-banner">
+      <div class="item item-1">
+        <div class="header-text">
+          <span class="category">Toronto, <em>Canada</em></span>
+          <h2>Hurry!<br>Get the Best Villa for you</h2>
+        </div>
+      </div>
+      <div class="item item-2">
+        <div class="header-text">
+          <span class="category">Melbourne, <em>Australia</em></span>
+          <h2>Be Quick!<br>Get the best villa in town</h2>
+        </div>
+      </div>
+      <div class="item item-3">
+        <div class="header-text">
+          <span class="category">Miami, <em>South Florida</em></span>
+          <h2>Act Now!<br>Get the highest level penthouse</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="featured section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="left-image">
+            <img src="/assets/featured-BAZfwi1Y.jpg" alt="">
+            <a href="property-details.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA8CAQAAACZHrGDAAAD70lEQVR42rXYT2xUVRTH8SnttIXOtDSGWIqYGBESY0xY1JgIugI1wZWJuNYVbsCtGqJGExOhloWJG2JMYIfRRIGwkT+GkBjBFrBT/yXAAhAjkJYWqX8+1hsyt5nXN/N8M/29Rc857777zT3vnJfOKfwnz/vKrHw6683C/5P3NKszStlxz4LtBpVzXKtNgonMSGewo5BbbrvuIioZkaAzN66M393jZGYk6GoKKFiVjEhQzg3sg7v21yKyeaCuhfKgE2w2t4OVxnFOWwuA9rjttj3JO4YBTPkTvNEk0FpjAMasTdwfcQMwaxqXtDUBtNU/mLDOOhXwYmJNe7Uv7wc9uYF2gf1Vfx/Y3WC/3lxA9zoGdgRvm1fC3+3guIH0NlHOAbTZDVyxIXh7wcfBfsJl3PR0C4FeA4eV5uw1RjFtGmMemov0OAhebwnQMp+Bt4P3glA0VhpQAVtD/C3wuZ4mgYZcwIzngvc+2K89eEvmF40tpnHRY7mB2mwDp9w3561wDLwaV8eisWLOXuUU2KYtH7ATfBrsTW7iio2JJza4gps2Be8A6Mx7wp04p99L4LDlKZ/sQ+Bl/c5iZ74TBjmIO+CdQh15F9zBoeaKZomr4EahgcyCq5Y02xYP+hB/6InbxKsaG/C3WSPWZGsLHSnA2qilTpoCMOmI0CIGMZWl8RWN+NWMLw2lAJVE4Gq16q0Cp7U3AupxXtT6CEx5zCBm9IeEDtbEp3Uk6hf67noPeFwFEx416BN8kw14q3qnEbAbdIeTHQYcjU/TABg3To3XyEYbA66CW65HoMGWAqOquIpu3YIVohP4qPXAiCtFzwknULE0HSi+lfgOa+IzOurjYgTfhVg6UPh5Y22iSmM8cUKliJsvv+GR1MbXK6s6GuIicFU6sN0RkwAmTYn2/PgBbWnJTMSPN/onqtz4Cguz4Y624MdMdlw+YH7cCcexrwaYTGT95GbCxaaHpTVARRUAqksrFlZFMa0ya+MGQHcSOI6o8RAdTwdmxPX7BXubTmmswHrv1PKAG9WVv2iSFZiO6/MzxgRcfmDyo1xaENfrJ5yNuNSUZq3M+fOLBK7sR5zXHZ9LrdKslZkOV/YDzodmyA0cV1yo75Rq06vPBL63LJLypTS9EY5SxRVdRSXiEsD8H7EIjHFFl4Pd7OhLyXi9j5hSi4d7ziS6LpHkhnI66/jSEDiW53TJAe0Oqxr1n2FIa/OWjaDjYMg1bHEkApRy4KpD9jv1gdbjWlidbPM80lU/pT7AcCHIF4htvjhyDQ/ftZ8xy+LihvBtGHvtchFwMuJaLiMYNQq4ZLenCosnRX9VUcMRtZjA0y7Y7cnm9/oXRSQLJNJn1zUAAAAASUVORK5CYII=" alt="" style="max-width: 60px; padding: 0px;"></a>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="section-heading">
+            <h6>| Featured</h6>
+            <h2>Best Appartment &amp; Sea view</h2>
+          </div>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Best useful links ?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                Get <strong>the best villa</strong> website template in HTML CSS and Bootstrap for your business. TemplateMo provides you the <a href="https://www.google.com/search?q=best+free+css+templates" target="_blank">best free CSS templates</a> in the world. Please tell your friends about it.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How does this work ?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code>adipiscing</code> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Why is Villa Agency the best ?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code>adipiscing</code> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="info-table">
+            <ul>
+              <li>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAExUlEQVR4AdRaA7AsOxCdb9vGJvNt2/afybdt27Zt27aNZ9u2vTevT26v8mb27izqZarq1NR20H0qSXens95+lxxsoJV/dFbJgTqUJ7GM5ettkg3F4CYldTWgOWdllZjQYj/uU6Oe35qNDjKHFTfqUKgCIXkyDxhHA9oS2idA2yKFnWPGQ9abSU23+iTW4+mjRJBXGspsnpSSxxaT1UqcyyQTgZR9hfHl+uhj1lmJCT3Gsqr1eDkiJHiAl+1B+k5hI4hwZg8meEWVin4w409ea+FYQkfLDZrtEM+xrGo9HraXPlKuq4/yd4KAVmR3rdZdU6vMUehI30N5ha6uUtGPZvyh6y0R1wfnlLflCyyrWk9h0lCezStxQYmyQB5ZE6FQfhOz5RpMSInTIACxUmXyiGoJ6bO2WoCM/MWMP2LdFdNMCFv1xAjX+mmKCYnd6JD/SviS8DEp/J3mur5CQtC7OXng7SP7H+VvQ85qy4YRqh4WoVDcXzBQDjd6b/bmtfsz+SnWWf3MHULBeluzkT2zSjxOxJ5ACKHvDJxDqz/ITkZ/9MtDiUEkn+YEIYQJMqbJOnMwuK/ebbf5I85L15j0Z6wLhDi4rre2DuR25nzwigFRhHJt6GegMlsRmVZIEBrrto/1l9dHiNVpjtX0Meutqj1vngTx6wMYGePR/oGzsWRfNNbLheLU4kyYt9D3LY1z1m1j+xCR9wnTmMyXyEJSS8jeCpY8zYQ42z5h08VST8jOth0jJM+qRhHOjouE4KkexkUMaUrFCDIbkaJ/zbzHiyWdIlQrtNpwcbdWKBT/IRtOhFC+SN+ntPLPd87LIVDWrtgtQlc13DAuypBxz0c5EVSiqO3ZuKv+XL0+6INXWRRG28BlEPqiLncoJKINDsceh6s+oSkJodPqRiYQB5Nxo8s5EaROESHguXJjaJXGJ3EKz2E7aOXvGYvA30urtVZuiRBCABcWB1mV0ra40xg7VGaHCEKvcAjpYY8jTKT2SXV320jtKyB0a+4+E7GtnkUb1wzscT9zCFgwrnJaMSGzR0NxJ33vjcDdNOFdvJKDKyB0C/piRed0CnIzsuXiqIudVv7OZN+FcTljIkLWq0QkEqzQLbwK+zmbnOrAP4AJ3ZV6QhwHfuLa+EbpJWS/HijRgWXpJoRyEwe89VJNCFUclHvZC94CWVoIQX65Fe23QIBjV/0WZGkjdCFe4YjIvuQA3i1KN+5Bv9QRQlphZQT/6kDugj7pJKTETCLVjvConWc5QaiKJ8kT6qVch+I8M+eR/vp1I8TPKeZR2DwS86MxMmrUofGcz8oVe7E3idRxRPgUrGb1kCfnlNP3odrnA+QptELdDCE2dhoON2rQ+BLG55/1mWhaYK61MX+8OMUQUt582Haoy2Fb1gOYi3BmneY8ycxl5hX75Pa0sv4aczzkaUTJqzVtuRE69M+wXrN3IHlntLtmvFZyWwR3rcTpNiEDBE5rwOZw15ZHcgZ6f7EQrt7Ff7iK7xxkdsejLceg5+H9cJZcAs4M2XZ74dyL42IJWY+4TqPY1nL788wi7/cifiPjdgv++ahpFNl5Wyyh0qAq+lDwXcrREvC/HGaus85QHCl5DDGfauV4LgBBf/asoWv8mmFiAOKcb5LjP+BOAAAAAElFTkSuQmCC" alt="" style="max-width: 52px;">
+                <h4>250 m2<br><span>Total Flat Space</span></h4>
+              </li>
+              <li>
+                <img src="data:image/png;base64,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" alt="" style="max-width: 52px;">
+                <h4>Contract<br><span>Contract Ready</span></h4>
+              </li>
+              <li>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAFL0lEQVR4AdVaY6BzORDt2rZ3e5P7sLZt66Zr27Zt27Zt27Ztm7Nzvk7a1L170zbfj/Ne22hOJjOZTJJbcvvlSqBV40X/MerTf42mVvjH6C/JqO3Qrhpk+vq4nzO4zi/Fuuo1MnpnyuWGQXknUfHln0QdAgH4/1cQggV6swaJeoPL3i3W0/fWklFrO6T/ZnzgfH+LVuubumuEyOg9MTCtMvVUrRoK8bsq2id6Dys8f1699PvK/ZPwJJwo2vqDVo3m6Y6GjD5AZv4cMmrx+stJzwTBqzXE5I6S3/7hpTtDg7bblggbvXIXNKQ2cu2EVuofT8oc0uqF8hJSBxXJ6NNEY5/Qav2xW7/JkgSpTTtLaL/csNAM7AcD0up9k9YS0m+izC4bJnGpkHuBTH6sdgalgl7AnZSOEXKEvqNIaJqJ6pR9wPhFPl8vQj2EyUgzMJlIcbtvxFlc0mFC6qEmhJ5lrfzMy+xtEeaG/zs4makm5rFel+V6S28IJeoBZ7mcnlUAWnDB4XlSbhOH8gzG7DahT4TMoRnJVI95npD6lowa7Boh7C9uhOCXlD4e41qn03lCnQcmbJuyW1drDvWEZK9KHFK7+SD0YC8J2UDZiQGPyEQIMRo6QgzWK0IAraYH2El8nmavqqfuQe7kB1H3BL0kBNCaU47DE/y8eNYHyUw+StuEqBAt7Kj5sEznF/8e8FQh9brEmM0JkdHrl0N/tX37BhxPgyidtXoRlkVHkKiTGWda+RCpSNnFjAvhOGwcaZfZviUyhXilFN5oQbQJAHKCzk/Jfl/tlzJaFjK54biTX8XW1saxgVbJ6+4j7ufxdxAOT+Xkw1+8My9EK/SNAc8Cx0BrqTGbHwGiWSRUOS0QG3sU8sieU1eFH4FgE0ILy2RcRgW1PE/Iij2BiVagVdVyLMcTLPO/Q6JdMnovNrTzAQSJjB/lRDlZE2cwn5APBghsUx/wqglB1cgxIMHSK2B8VsI7jD9Sx3LVhMiofQKxoRsgT2ZC2IADIXSbJ0LqLFojHh91ewWEaGz/D8MpZCYUEpjQ9z409C57lxt7DqO+xkbvw4YOCMOG1M2+nMLxgRC62xeh4yRQ3Z3bPc54Ysj/RD0JQ4XDQK4b+xV+Q5mtByCK9kToHj+EEn2stLmsnqEineymfqvBhF4Ni5BRJ6YZmNaeYTRacaqxG5Yjgi7kp2sHCKQ7oCF1gk3rUiGe1wJ5NVpVz49rEwSRxc/R3OUkiJ4Tv9kLMOlztbSumozexdqQ7yX3UFsCJHpdkHWW3J/VF27oC3dUzVC+KNAX2sSOVy+H0yscAwJF/K8Bfk/UrrApLDnMLAiwllaxfeLoL/Hhgu0sXRup+CUkS84HkGKWZbRGq7qwISF0RviECnqZVnWRM5TxzwyZ0A6SddoSY0PoukCZiRfxS0j2FusUfAB2lj4gVRfYQ2lGQtHCQuhwX4SwB+ESjYW7imf8Ov58bT1I2TVc72wqxLPLxfXtmQjBW9lXItnJZL8FRPo6EyFR8yU2Q8QdXoHwh3F5FuBWvSpremkxgaNPw3+3XLK10ObPRe8Y75iJEIA0bQiHO+Q2ml+ntEkIwI0Acty0is7jv0/gmQ42YRF6c4yFcIlQtpqKkP5FFrfhdQpSuqyh50K4H7JANCEb7s5pn8asWaXGCYIgZPQmTt7gu7auU8R2DhLPdbN9hxMCJKtzCOO94kT39aV7XiZvfAIDJvwYyAdbTfsA8FXGXXg+FgJweIM8eGOUUkPRCkh4o1GowGuwZife/wClt5AfN0F5xwAAAABJRU5ErkJggg==" alt="" style="max-width: 52px;">
+                <h4>Payment<br><span>Payment Process</span></h4>
+              </li>
+              <li>
+                <img src="data:image/png;base64,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" alt="" style="max-width: 52px;">
+                <h4>Safety<br><span>24/7 Under Control</span></h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="video section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4">
+          <div class="section-heading text-center">
+            <h6>| Video View</h6>
+            <h2>Get Closer View & Different Feeling</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="video-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+          <div class="video-frame">
+            <img src="/assets/video-frame-ivoPbRhj.jpg" alt="">
+            <a href="https://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fun-facts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="wrapper">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="34" data-speed="1000"></h2>
+                   <p class="count-text ">Buildings<br>Finished Now</p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="12" data-speed="1000"></h2>
+                  <p class="count-text ">Years<br>Experience</p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="24" data-speed="1000"></h2>
+                  <p class="count-text ">Awwards<br>Won 2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section best-deal">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="section-heading">
+            <h6>| Best Deal</h6>
+            <h2>Find Your Best Deal Right Now!</h2>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="tabs-content">
+            <div class="row">
+              <div class="nav-wrapper ">
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="appartment-tab" data-bs-toggle="tab" data-bs-target="#appartment" type="button" role="tab" aria-controls="appartment" aria-selected="true">Appartment</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="villa-tab" data-bs-toggle="tab" data-bs-target="#villa" type="button" role="tab" aria-controls="villa" aria-selected="false">Villa House</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="penthouse-tab" data-bs-toggle="tab" data-bs-target="#penthouse" type="button" role="tab" aria-controls="penthouse" aria-selected="false">Penthouse</button>
+                  </li>
+                </ul>
+              </div>              
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="appartment" role="tabpanel" aria-labelledby="appartment-tab">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="info-table">
+                        <ul>
+                          <li>Total Flat Space <span>185 m2</span></li>
+                          <li>Floor number <span>26th</span></li>
+                          <li>Number of rooms <span>4</span></li>
+                          <li>Parking Available <span>Yes</span></li>
+                          <li>Payment Process <span>Bank</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="/assets/deal-01-D0arH7CX.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                      <h4>Extra Info About Property</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse. 
+                      <br><br>When you need free CSS templates, you can simply type TemplateMo in any search engine website. In addition, you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc.</p>
+                      <div class="icon-button">
+                        <a href="property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="villa" role="tabpanel" aria-labelledby="villa-tab">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="info-table">
+                        <ul>
+                          <li>Total Flat Space <span>250 m2</span></li>
+                          <li>Floor number <span>26th</span></li>
+                          <li>Number of rooms <span>5</span></li>
+                          <li>Parking Available <span>Yes</span></li>
+                          <li>Payment Process <span>Bank</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="/assets/deal-02-BqoRQi8b.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                      <h4>Detail Info About Villa</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen.</p>
+                      <div class="icon-button">
+                        <a href="property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="penthouse" role="tabpanel" aria-labelledby="penthouse-tab">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="info-table">
+                        <ul>
+                          <li>Total Flat Space <span>320 m2</span></li>
+                          <li>Floor number <span>34th</span></li>
+                          <li>Number of rooms <span>6</span></li>
+                          <li>Parking Available <span>Yes</span></li>
+                          <li>Payment Process <span>Bank</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="/assets/deal-03-iEuqWuvH.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                      <h4>Extra Info About Penthouse</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen.</p>
+                      <div class="icon-button">
+                        <a href="property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="properties section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4">
+          <div class="section-heading text-center">
+            <h6>| Properties</h6>
+            <h2>We Provide The Best Property You Like</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="item">
+            <a href="property-details.html"><img src="/assets/property-01-B1BLMZY1.jpg" alt=""></a>
+            <span class="category">Luxury Villa</span>
+            <h6>$2.264.000</h6>
+            <h4><a href="property-details.html">18 New Street Miami, OR 97219</a></h4>
+            <ul>
+              <li>Bedrooms: <span>8</span></li>
+              <li>Bathrooms: <span>8</span></li>
+              <li>Area: <span>545m2</span></li>
+              <li>Floor: <span>3</span></li>
+              <li>Parking: <span>6 spots</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="property-details.html">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="item">
+            <a href="property-details.html"><img src="/assets/property-02-CO2rZOYh.jpg" alt=""></a>
+            <span class="category">Luxury Villa</span>
+            <h6>$1.180.000</h6>
+            <h4><a href="property-details.html">54 Mid Street Florida, OR 27001</a></h4>
+            <ul>
+              <li>Bedrooms: <span>6</span></li>
+              <li>Bathrooms: <span>5</span></li>
+              <li>Area: <span>450m2</span></li>
+              <li>Floor: <span>3</span></li>
+              <li>Parking: <span>8 spots</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="property-details.html">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="item">
+            <a href="property-details.html"><img src="/assets/property-03-CngsYo2M.jpg" alt=""></a>
+            <span class="category">Luxury Villa</span>
+            <h6>$1.460.000</h6>
+            <h4><a href="property-details.html">26 Old Street Miami, OR 38540</a></h4>
+            <ul>
+              <li>Bedrooms: <span>5</span></li>
+              <li>Bathrooms: <span>4</span></li>
+              <li>Area: <span>225m2</span></li>
+              <li>Floor: <span>3</span></li>
+              <li>Parking: <span>10 spots</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="property-details.html">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="item">
+            <a href="property-details.html"><img src="/assets/property-04-BxjmO_78.jpg" alt=""></a>
+            <span class="category">Apartment</span>
+            <h6>$584.500</h6>
+            <h4><a href="property-details.html">12 New Street Miami, OR 12650</a></h4>
+            <ul>
+              <li>Bedrooms: <span>4</span></li>
+              <li>Bathrooms: <span>3</span></li>
+              <li>Area: <span>125m2</span></li>
+              <li>Floor: <span>25th</span></li>
+              <li>Parking: <span>2 cars</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="property-details.html">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="item">
+            <a href="property-details.html"><img src="/assets/property-05-Cc2usB87.jpg" alt=""></a>
+            <span class="category">Penthouse</span>
+            <h6>$925.600</h6>
+            <h4><a href="property-details.html">34 Beach Street Miami, OR 42680</a></h4>
+            <ul>
+              <li>Bedrooms: <span>4</span></li>
+              <li>Bathrooms: <span>4</span></li>
+              <li>Area: <span>180m2</span></li>
+              <li>Floor: <span>38th</span></li>
+              <li>Parking: <span>2 cars</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="property-details.html">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="item">
+            <a href="property-details.html"><img src="/assets/property-06-ChqAOuti.jpg" alt=""></a>
+            <span class="category">Modern Condo</span>
+            <h6>$450.000</h6>
+            <h4><a href="property-details.html">22 New Street Portland, OR 16540</a></h4>
+            <ul>
+              <li>Bedrooms: <span>3</span></li>
+              <li>Bathrooms: <span>2</span></li>
+              <li>Area: <span>165m2</span></li>
+              <li>Floor: <span>26th</span></li>
+              <li>Parking: <span>3 cars</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="property-details.html">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4">
+          <div class="section-heading text-center">
+            <h6>| Contact Us</h6>
+            <h2>Get In Touch With Our Agents</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12469.776493332698!2d-80.14036379941481!3d25.907788681148624!2m3!1f357.26927939317244!2f20.870722720054623!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x88d9add4b4ac788f%3A0xe77469d09480fcdb!2sSunny%20Isles%20Beach!5e1!3m2!1sen!2sth!4v1642869952544!5m2!1sen!2sth" width="100%" height="500px" frameborder="0" style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);" allowfullscreen=""></iframe>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="item phone">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAFlElEQVR4AWKgJ/gfrGr7N1Tlyd8Q1TtAeub/EJXE/0EK8gxDFQA9sedfKKBZawB2IAmiuatznfHt7ORs2zY2Odu2bdu2bdu2bdua61f399dL324ym8xcZas+MzM9r/tNa9ZY/vorNn/L/++3cbSZXb1vov9Hs/sURrWFwijNWyhaTAB8QIA0uG8E3FG2UuwNA6RcmluEXCsUeX/463qhzexNrTn//KPZspleLLI+1pOv71KA/Sqf7+IVjAjaP0uTPoXZeKqJAU4s88B/gUXP2HI0hweum2PUwn/gq+p/q0QHeWdEXFxC5NylgYnz2LYJy0RHKPNfbledvMuuOEWn/H6FAnog5gQAtpbI+kkp8NxGwBykwFyU4qkuVfTbOwyooT6Rf7tS4NV5XOrBCszZNYCfy2Nx3gK6+sPVvq5z0IZZTU0600HQeTlBwWvOKrL2AKVsXBp0t1Zpe2Wp87IHr9M/FtwkbexKV0H6TNlVzG6ZcpbpHCfFi90IZbqBMjvxXIDMGrgRHbx3GqDEJdWCzLpZgEQBP6cH1OhVG0erO4SSQ3ke4lnahm4m9xg36OYvrBK0fP+EGdQZRAyT8TdwQGV22DWi8V3TJwT7tAP+Dmm3uwl3/zgpZj3HgLoLklV1ft+Fh1PDtaX/5CCvtft5Ejzlw8kad7PRpkSho9zn9YwtezhEUfCrWvkcmERW+qtq34mG8AECaBOp0t3kHDbJrxCzNGseSSzA1qDe/eyVeSNPjWykYqZsMFYczxq2q5UmdZ6s3Lqy1F3ZCph8Wn1udTyBZlfND8Ycq91pcyVGaWFeT+1Jy36YztJ2CR83J41ckhPMSSrfOs5tpnsKBm+IeizDoisQ7V4q4AHNuMDKQbNzGAzA+U15zGek/fXTxqDoZPcvGUiUTH6XKLNQPWHICFT8OMsjlhTmmKcdAjv2vkUC6BCafEU9YRw7UG4EybaXiMaUtX9P5JAb195xHS51RiI4axzNCsfEFIscFgBPivbNxhnxbyryAR+z+37ENXO2Kw2ZKgWsXJw6BCBQiDZ7VTZw820yjt3lkjT5hyzPQgq4jMa/EgTQilGPrP3lv9mAWbEG8HlgTT0GJn6LNnlALWGgJXpqgamHynWChttatlxcnKmEBLJOurIxj0ffrQW7m+bJPOUu+nYMCilJSwHCAc+pdYB6nSM7ktxWs9LZZKVv6/O8v4P7dohTSaHWEg+CGvfFUJE69NLmVKnQG3kLRrvCFJOg1pHYso0wYxnsw2Nfu7ig6r9tmjdTlkj/hWxsRsd6aGtdlsPSAOgzUh+Z98AL8Pn1dQnHhww5R/Ec/YVGjk9Qz9OB/1Rc+RguoKg1lsw91KGeglUfRMEoX28rhqzvKVoPtcniv9HGHnGat1JpCtnsi4pCT+CKhpR1An8OcNwvRJmtae/tKlFt7GaneahXYnM+5ujaSVsGNx4ZFrw3CP3QvlWgznGfa7YUy/7C8xXNTq9D+8eUpdb0BMrs4bwR9SAfo/iWq2xHoixzHwphKWrHclHl/sCNC4iL0eBAYyNnwL9HNWQqvjzfUUrLd9iNZx69EPph+nno9mpt7atAvZw0KQI9TL8XQzRn0CzZSjmK3+A8goOqREW+WPZ89W+W4haud62lN/rHTYpLBP4AGjNTirN4QYF6KVTBhzpN3QOHeeDGU4Lo2aiPQsmQhHi6sPyOi8vhikaB+km+9kM54BMM4mJQMHyZxb07LgfQzHct/hSYE9VaJ4RHkpIDZrzy8hVyObz2kifuhW9uutOwzFeWCtwz2KCAW9lWpigl5YldbvLx0CuUz27BuACtZ2+vvDycBoxrLjQucROSAv6clgCSXgBGp1LTv+YX4pyNze6FVn+Q/6G5KRnHnkKlm5A+DVvoewHxCWiKF6TsSmbIdc1/AOkqFtyJDQlXAAAAAElFTkSuQmCC" alt="" style="max-width: 52px;">
+                <h6>010-020-0340<br><span>Phone Number</span></h6>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="item email">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAkCAYAAADGrhlwAAADbUlEQVR4AdWYRZTbTAzH/TFD21u5yWixzAyXMsdTZu6pdC4z38rMzMzcY5mZmRmnmlTe58jOQl7woJA0tn7+a6TYRp2+Df2mTDH4iynOfpHw/IsULxPCTHiB+V7EvMcrafykOfww6Nz1VYJKZEOo46pGjZ8NJUVvh1PCDYS8Hb/qwD18v+KEgjGGq0OKg6qu+M1fio2T/4krG2z86K8qEza4CPEQHeIjdxDUGr0w3oxgZruXHbzTQK+J7hZCzGdQB+IORorVTJUFuplRvq90wEtyvNELlIQeDGp3HMEsY7kN179rMej7ywwgbUqm5aaAoWzhLmUYP8S4zFaxnKbZfO/cgZqDx3Y1RvFGETcwJky1fEp6/iMGN6DChaxAd6VgR/TLDBYHU8bqwtkGIqWGM6jtMdwz08kXOhBdpdHR7n56bLjDhA7E6liMjJZSeOxFDGYm+cIH5AplwrYINICF7jARAOLlR1B7ItiaCSaCQAQ1NtxK6YnPjjmbfJEHcldKbA5dGTGP7c855IseEN0U9qUpHXKjwPMvtZXYJ+vvTGyAZNqv+g6XD9/QGwC8V9JTMCZAOhbX3rXW5rT8cO3cILctr1QLb+koAhGMKR7ZruwbtJUssU05mDOr8Xh37KWnfKJUVIBUy+TCmNAze0J4RWtRCU3i5ZdlmWFD+F6+ycns94+qBZSIKJCub5syBJPUlHWs8az9blBtCubC/fa37l785izw+KIG/vY1AEpCyQgAEYyEhwEwEho4YjkUnYirqpVyPY8PKgRASfGBoMIHpGRSEQdMC9Eoizk12R7PAOfzeA7F4j8oX1LxsACpZiK/UxlhZq+tQ3dU4pStxC4pEwZkay3uS/4AhKBCB1IS8uGB7gfA+ETDnA5P1VJ4VXMP5Hidz1vZOaeSi4UERHvmnluZRdOU9FZyKNXCUzTD31b8GxwIr6SljKObmdAqyjDBy0/CW0spUuiVK5A/oGOh37kyKH2T6INwKKjOldL7W/s0oAMI3+/q6YzvJ4LPmVhDJVVhUPeVhPLUeAgIScn51Nb/qZsltYw9SJbl9xntIX1+Q4+CHXPiqrWf4tFU05Q8mONJZ97wlj9dISnFIWWKzkqKQRg0JJ4M8xqsc8O8tzjzhqOGng/MkbCm9xjVpWiEdDf1pkpMg3tKiq6a5RscrAB8g8ae2AAAAABJRU5ErkJggg==" alt="" style="max-width: 52px;">
+                <h6>info@villa.co<br><span>Business Email</span></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <form id="contact-form" action="" method="post">
+            <div class="row">
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="name">Full Name</label>
+                  <input type="name" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="email">Email Address</label>
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..." required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="subject">Subject</label>
+                  <input type="subject" name="subject" id="subject" placeholder="Subject..." autocomplete="on" >
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="orange-button">Send Message</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="col-lg-8">
+        <p>Copyright © 2048 Villa Agency Co., Ltd. All rights reserved. 
+        
+        Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a> Distribution: <a href="https://themewagon.com">ThemeWagon</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>
